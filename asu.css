@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #91b2f8;
+    color: #1e1a40;
+    font: 14px 'Tilt Neon', sans-serif;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background: #A2ADD0;
+    margin-bottom: 30px;
+}
+.she h1{
+    font: 40px 'Tilt Neon', sans-serif;;
+}
+a:active{
+    color: aqua;
+}
+header .head{
+    transition: .5s;
+}
+header .head:hover{
+    transform: scale(1.2);
+}
+.head, .top-menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 110px;
+}
+.top-menu li{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+.top-menu a{
+    text-decoration: none;
+    color: #1e1a40;
+    font: 19px 'Tilt Neon', sans-serif;
+    vertical-align: middle;
+    
+}
+.top-menu a:hover{
+    background: #91b2f8;
+    border-radius: 5px;
+
+}
+.top-menu h1{
+    color: #1e1a40;
+    font: 19px 'Tilt Neon', sans-serif;
+    vertical-align: middle;
+}
+.top-menu{
+    font: 20px 'Tilt Neon', sans-serif;   
+}
+/* .top-menu a:hover{
+    color: aqua;
+} */
+.aru{
+    width: 140px;
+    border-radius: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-left: 20px;
+}
+table{
+    margin: auto;
+    margin-top: 230px;
+}
+.table1 h2{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: -220px;
+    font-size: 3rem
+    
+
+}
+.parameters{
+  text-align: center;
+  margin-top: 90px;
+  list-style-image: url(heard.png);
+}
+.parameters li{
+  font-size: 20px;
+  list-style-type:square;
+}
+.parameters h2{
+  font-size: 3rem
+}
+
+/* .list{
+  padding: 0px 25px;
+  style="list-style-type: none;list-style-image: url(heard.png);"
+  
+}
+.list li{
+  color: #fff;
+  margin: 5px;
+  /* border-bottom: 1px solid black; */
+/*} */
+
+.beauty{
+  text-align: center;
+  margin-top: 90px;
+}
+.beauty h2{
+  font-size: 3rem
+}
+.range{
+  width: 20%;
+}
+.about h2{
+  text-align: center;
+  margin-top: 90px;
+  font-size: 3rem
+  
+
+}
+.about h3{
+  text-align: center;
+  font-size: 1rem;
+  margin-right: 500px;
+  margin-left: 500px
+  
+
+}
+.end{
+  text-align: center;
+  font-size: 1rem
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+
+
+.header1 {
+  max-width: 1200px;
+  margin:   auto;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 4rem);
+  margin-top : -100px;
+}
+
+.title-wrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  transform: skew(0, -10deg);
+}
+
+.top-title {
+  order: 1;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  margin-bottom: 1rem;
+  padding-right: 2rem;
+}
+
+.bottom-title {
+  order: 3;
+  text-align: center;
+  display: block;
+  color: #fff;
+  font-size: clamp(1rem, 4vw, 1.5rem);
+  margin-top: 2rem;
+  padding-left: 2rem;
+}
+
+.sweet-title {
+  order: 2;
+  color: #fde9ff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: clamp(3rem, 10vw, 4rem);
+  line-height: 0.75em;
+  text-align: center;
+  text-shadow: 3px 1px 1px #4af7ff, 2px 2px 1px #165bfb, 4px 2px 1px #4af7ff,
+    3px 3px 1px #165bfb, 5px 3px 1px #4af7ff, 4px 4px 1px #165bfb,
+    6px 4px 1px #4af7ff, 5px 5px 1px #165bfb, 7px 5px 1px #4af7ff,
+    6px 6px 1px #165bfb, 8px 6px 1px #4af7ff, 7px 7px 1px #165bfb,
+    9px 7px 1px #4af7ff;
+
+  span {
+    display: block;
+    position: relative;
+
+    &:before {
+      content: attr(data-text);
+      position: absolute;
+      text-shadow: 2px 2px 1px #e94aa1, -1px -1px 1px #c736f9,
+        -2px 2px 1px #e94aa1, 1px -1px 1px #f736f9;
+      z-index: 1;
+    }
+
+    &:nth-child(1) {
+      padding-right: 2.25rem;
+    }
+
+    &:nth-child(2) {
+      padding-left: 2.25rem;
+    }
+  }
+}
+
+
+
+
+
+
+
